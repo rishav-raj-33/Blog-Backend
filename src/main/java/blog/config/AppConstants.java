@@ -18,7 +18,7 @@ public class AppConstants {
 	public static final String SUBJECT="E-mail Verification Token Blog Application";
 	public static final String TEXT="The Verification Code of Blog Application: ";
 	public static final String B_CRYPT_PASSWORD="$2a$10$DFbcn1f0nVDhhXl8EK8HMO.0Qb07i/PaH/Vu6Kl0IWAtNyU1WgNr.";  //Password:Rishav@123
-	public static final String BASE_URL="http://localhost:8080/auth/";
+	public static final String BASE_URL="https://blog-backend-production-0d72.up.railway.app/auth/";
 	public static final String END_POINT="verifyToken";
 	public static final String SUBJECT_FORGOT_EMAIL_STRING="Blog Application Reset Password Link";
 	public static final String ADMIN_ACCOUNT_ABOUT="This is Admin Account";
