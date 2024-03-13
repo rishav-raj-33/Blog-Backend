@@ -39,7 +39,7 @@ public class CategoryController {
 	
 	//Create Category API
 	
-	@PreAuthorize("hasAnyRole('USER', 'ADMIN')")	
+	@PreAuthorize("hasAnyRole('ADMIN')")	
 @PostMapping("/")
 public ResponseEntity<CategoryDto> crezteCreateCategory(@Valid @RequestBody CategoryDto category){
 	CategoryDto createdCategory=this.categoryService.createCategory(category);
@@ -69,7 +69,7 @@ public ResponseEntity<CategoryDto> getCategoryById(@PathVariable int id){
 	 
 	 //UPDATE Category API
 	 
-	 @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+	 @PreAuthorize("hasAnyRole('ADMIN')")
 @PutMapping("/{id}")
 public ResponseEntity<CategoryDto> updateCategory(@Valid @RequestBody CategoryDto categoryDTO,@PathVariable int id){
 	CategoryDto updatedCategoryDTO=this.categoryService.updateCategory(categoryDTO,id);
@@ -78,7 +78,7 @@ public ResponseEntity<CategoryDto> updateCategory(@Valid @RequestBody CategoryDt
 	 
 	 //DELETE Category API
 
-	 @PreAuthorize("hasAnyRole('USER', 'ADMIN')")
+	 @PreAuthorize("hasAnyRole('ADMIN')")
 @DeleteMapping("/{id}")
 public ResponseEntity<ApiResponse> deleteCategory(@PathVariable int id){
 	this.categoryService.deleteCategory(id);

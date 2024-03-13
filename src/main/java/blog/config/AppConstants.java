@@ -30,5 +30,90 @@ public class AppConstants {
 			+ "Help us to Grow and Explre the views of others as well as express your view to others";
 	
 	
+	//Initial Category 
+	
+	public static final int CATEGORY_ID1=1;
+	public static final String CATEGORY_TITLE1="Fashion";
+	public static final String CATEGORY_DESCRIPTION1="Fashion Category";
+	
+
+	public static final int CATEGORY_ID2=2;
+	public static final String CATEGORY_TITLE2="Love and Relationships";
+	public static final String CATEGORY_DESCRIPTION2="Love and Relationships Category";
+	
+	
+	public static final int CATEGORY_ID3=3;
+	public static final String CATEGORY_TITLE3="Tech";
+	public static final String CATEGORY_DESCRIPTION3="Tech Category";
+	
+	public static final int CATEGORY_ID4=4;
+	public static final String CATEGORY_TITLE4="Health";
+	public static final String CATEGORY_DESCRIPTION4="Health Category";
+	
+
+	public static final int CATEGORY_ID5=5;
+	public static final String CATEGORY_TITLE5="Fitness";
+	public static final String CATEGORY_DESCRIPTION5="Fitness Category";
+	
+	
+
+	public static final int CATEGORY_ID6=6;
+	public static final String CATEGORY_TITLE6="Finance";
+	public static final String CATEGORY_DESCRIPTION6="Finance Category";
+	
+	
+
+	public static final int CATEGORY_ID7=7;
+	public static final String CATEGORY_TITLE7="Entertainment";
+	public static final String CATEGORY_DESCRIPTION7="Entertainment Category";
+	
+	
+
+	public static final int CATEGORY_ID8=8;
+	public static final String CATEGORY_TITLE8="Photography";
+	public static final String CATEGORY_DESCRIPTION8="Photography Category";
+	
+	
+
+	public static final int CATEGORY_ID9=9;
+	public static final String CATEGORY_TITLE9="Sports";
+	public static final String CATEGORY_DESCRIPTION9="Sports Category";
+
+	
+
+	public static final int CATEGORY_ID10=10;
+	public static final String CATEGORY_TITLE10="Hobbies";
+	public static final String CATEGORY_DESCRIPTION10="Hobbies Category";
+	
+	
+
+	public static final int CATEGORY_ID11=11;
+	public static final String CATEGORY_TITLE11="Science";
+	public static final String CATEGORY_DESCRIPTION11="Science Category";
+	
+	
+
+	public static final int CATEGORY_ID12=12;
+	public static final String CATEGORY_TITLE12="Art";
+	public static final String CATEGORY_DESCRIPTION12="Art Category";
+	
+	
+	public static final int CATEGORY_ID13=13;
+	public static final String CATEGORY_TITLE13="Self-improvement";
+	public static final String CATEGORY_DESCRIPTION13="Self-improvement Category";
+	
+	
+
+	public static final int CATEGORY_ID14=14;
+	public static final String CATEGORY_TITLE14="Food and Recipe ";
+	public static final String CATEGORY_DESCRIPTION14="Food and Recipe Category";
+	
+	
+
+	public static final int CATEGORY_ID15=15;
+	public static final String CATEGORY_TITLE15="Others";
+	public static final String CATEGORY_DESCRIPTION15="Others Category";
+	
+	
 	
 }
