@@ -2,6 +2,8 @@ package blog.helpers;
 
 import java.util.Properties;
 
+import org.springframework.beans.factory.annotation.Value;
+
 import jakarta.mail.Authenticator;
 import jakarta.mail.Message;
 import jakarta.mail.MessagingException;
@@ -16,7 +18,9 @@ public class EmailSender {
 	
 	
 	private final String user="rishav3330";
-	private final String password="qsltqpkbmpwvpjjv";
+	
+	@Value("${email.key}")
+	private  String password;
 	
 	public boolean sendEmail(String to,String from,String subject,String text) throws AddressException, MessagingException {
 		boolean flag=false;
